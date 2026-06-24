@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:steam="http://www.semanticweb.org/uniba/icon/steam#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Indie">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indie</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Action">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_HighEnd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_RPG">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPG</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Software_Training">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Training</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Racing">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Racing</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Video_Production">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Video Production</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Biz_FreeToPlay">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#ModelloBusiness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Accounting">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accounting</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Tier_HighEnd">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#TierHardware"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Free_To_Play">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Free To Play</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_FreeToPlay"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Strategy">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategy</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_HighEnd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Casual">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Casual</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Violent">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Violent</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Adventure">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adventure</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Massively_Multiplayer">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Massively Multiplayer</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Education">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Education</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Photo_Editing">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photo Editing</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Game_Development">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Game Development</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Web_Publishing">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Web Publishing</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Sports">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sports</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Early_Access">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early Access</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Simulation">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simulation</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_HighEnd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Sexual_Content">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sexual Content</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Design_and_Illustration">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Design &amp; Illustration</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Utilities">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Utilities</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Gore">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gore</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Audio_Production">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Audio Production</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Nudity">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nudity</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#TierHardware"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#ModelloBusiness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#compatibileCon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#nomeGenere">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#Genre_Animation_and_Modeling">
+    <rdf:type rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Genere"/>
+    <steam:nomeGenere rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Animation &amp; Modeling</steam:nomeGenere>
+    <steam:modelloConsigliato rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Biz_PremiumPaid"/>
+    <steam:compatibileCon rdf:resource="http://www.semanticweb.org/uniba/icon/steam#Tier_Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/uniba/icon/steam#modelloConsigliato">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+</rdf:RDF>
